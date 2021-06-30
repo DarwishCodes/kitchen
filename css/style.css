@@ -113,7 +113,7 @@ html {
     box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.05); }
 
 .food {
-  background-image: url(../../img/blob.svg);
+  background-image: url("../img/blob.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -163,11 +163,11 @@ html {
     background-repeat: no-repeat;
     border-radius: 10px; }
     .menu-card__photo-box--1 {
-      background-image: url("../../img/Asset 5.png"); }
+      background-image: url("../img/Asset 5.png"); }
     .menu-card__photo-box--2 {
-      background-image: url("../../img/Asset 7.png"); }
+      background-image: url("../img/Asset 7.png"); }
     .menu-card__photo-box--3 {
-      background-image: url("../../img/Asset 6.png"); }
+      background-image: url("../img/Asset 6.png"); }
   .menu-card__info {
     display: flex;
     justify-content: center;
