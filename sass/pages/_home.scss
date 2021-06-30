@@ -1,0 +1,27 @@
+.section-delivered {
+    padding: 15rem 0;
+}
+
+.section-our-mission {
+    padding: 0 0 15rem 0;
+}
+
+.section-menus {
+    padding: 0 0 15rem 0;
+}
+
+.section-support {
+    padding: 0 0 15rem 0;
+}
+
+.support {
+    background-image: linear-gradient(to bottom, $color-grey--2 10%, rgba($color-grey--2, 0) 90%);
+    padding: 5rem 4rem;
+    border-radius: 18px;
+
+    &__row {
+        display: flex;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+}

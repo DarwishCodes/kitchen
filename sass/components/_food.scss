@@ -1,0 +1,15 @@
+.food {
+    background-image: url(../../img/blob.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 53rem;
+    position: relative;
+
+    img {
+        position: absolute;
+        width: 63%;
+        left: 19%;
+        top: 30%;
+    }
+}

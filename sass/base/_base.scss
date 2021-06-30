@@ -1,0 +1,17 @@
+
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $font-family-main, $font-family-second;
+    font-weight: 600;
+    color: $color-black;
+    font-size: 15px;
+    background-color: $color-blue--light;
+}
+

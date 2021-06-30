@@ -1,0 +1,49 @@
+.navigation {
+    z-index: 10;
+
+    &__wrap {
+        display: flex;
+    }
+    
+    &__wrap > * {
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2.5rem 0;
+    }
+
+
+    &__logo-box {
+        justify-content: flex-start;
+    }
+
+    &__logo {
+        font-family: 'Lato', sans-serif;
+        font-size: 2.2rem;
+        font-weight: 900;
+        color: $color-black;
+    }
+
+    &__nav {
+        justify-content: center;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        align-items: baseline;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 4rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: $color-black;
+    }
+
+}

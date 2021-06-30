@@ -1,0 +1,59 @@
+.footer {
+    background-color: $color-grey--2;
+    padding: 7rem 0;
+
+    &__title {
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-bottom: 2rem;
+    }
+
+    &__social-box {
+        display: flex;
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        background-color: $color-grey--3;
+        margin-right: 1.3rem;
+        z-index: 2;
+    }
+
+    &__social-icon {
+        width: 1rem;
+        height: 1rem;
+        fill: $color-grey--2;
+    }
+    
+    &__navigation {
+        display: inline-block;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+
+        &:not(:last-child) {
+            margin-bottom: 0.8rem;
+        }
+    }
+
+    &__link {
+        &:link,
+        &:visited {
+            color: $color-grey;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.3rem;
+            font-weight: 600;
+            transition: all .2s;
+        }
+    }
+}
