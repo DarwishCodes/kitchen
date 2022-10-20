@@ -1,17 +1,21 @@
-
 *,
 *::after,
 *::before {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  //   background: rgba(0, 100, 0, 0.1) !important;
 }
 
 html {
-    font-family: $font-family-main, $font-family-second;
-    font-weight: 600;
-    color: $color-black;
-    font-size: 15px;
-    background-color: $color-blue--light;
-}
+  font-family: $font-family-main, $font-family-second;
+  font-weight: 600;
+  color: $color-black;
+  font-size: 85.5%;
+  scroll-behavior: smooth;
+  background-color: $color-blue--light;
 
+  @include addMediaQuery(tablet) {
+    font-size: 80.5%;
+  }
+}

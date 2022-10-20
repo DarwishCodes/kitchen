@@ -1,27 +1,41 @@
 .section-delivered {
-    padding: 15rem 0;
+  padding: 15rem 0;
 }
 
 .section-our-mission {
-    padding: 0 0 15rem 0;
+  padding: 0 0 15rem 0;
+
+  @include addMediaQuery(tablet) {
+    text-align: center;
+  }
 }
 
 .section-menus {
-    padding: 0 0 15rem 0;
+  padding: 0 0 15rem 0;
 }
 
 .section-support {
-    padding: 0 0 15rem 0;
+  padding: 0 0 15rem 0;
 }
 
 .support {
-    background-image: linear-gradient(to bottom, $color-grey--2 10%, rgba($color-grey--2, 0) 90%);
-    padding: 5rem 4rem;
-    border-radius: 18px;
+  background-image: linear-gradient(
+    to bottom,
+    $color-grey--2 10%,
+    rgba($color-grey--2, 0) 90%
+  );
+  padding: 5rem 4rem;
+  border-radius: 18px;
 
-    &__row {
-        display: flex;
-        justify-content: center;
-        gap: 2.5rem;
-    }
+  @include addMediaQuery(tablet) {
+    padding: 5rem 0rem;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2.5rem;
+  }
 }

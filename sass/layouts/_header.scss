@@ -1,19 +1,35 @@
 .header {
-    
-    &__text {
-        margin-top: 10rem;
-    }
+  &__text {
+    margin-top: 10rem;
 
-    &__google-badge {
-        width: 40%;
+    @include addMediaQuery(tablet) {
+      text-align: center;
+      margin-top: 3rem;
     }
+  }
 
-    &__apple-badge {
-        width: 40%;
-    }
+  &__google-badge {
+    width: 40%;
 
-    &__hero-photo {
-        width: 100%;
-        margin-top: 5rem;
+    @include addMediaQuery(tablet) {
+      width: 25%;
     }
+  }
+
+  &__apple-badge {
+    width: 40%;
+    @include addMediaQuery(tablet) {
+      width: 25%;
+    }
+  }
+
+  &__hero-photo {
+    width: 75%;
+    margin-top: 10rem;
+
+    @include addMediaQuery(tablet) {
+      margin-top: 1.5rem;
+      width: 100%;
+    }
+  }
 }
