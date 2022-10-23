@@ -1,9 +1,9 @@
 .section-delivered {
-  padding: 15rem 0;
+  padding: 8rem 0;
 }
 
 .section-our-mission {
-  padding: 0 0 15rem 0;
+  padding: 0 0 8rem 0;
 
   @include addMediaQuery(tablet) {
     text-align: center;
@@ -11,11 +11,15 @@
 }
 
 .section-menus {
-  padding: 0 0 15rem 0;
+  padding: 0 0 8rem 0;
 }
 
 .section-support {
-  padding: 0 0 15rem 0;
+  padding: 0 0 8rem 0;
+
+  @include addMediaQuery(tablet) {
+    padding: 0 0 0rem 0;
+  }
 }
 
 .support {
